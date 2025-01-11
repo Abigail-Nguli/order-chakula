@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6b81;
+}
+
+a:hover {
+  color: #ff4757;
+}
+
+/*Menu*/
+.menu{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    font-weight: bold;
+}
+
+/*Main*/
+.main-content{
+    background: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    background: #fff;
+    width: 18%;
+    margin: 1%;
+    padding: 2%;  
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tbl-full{
+    width: 100%
+}
+
+table tr th{
+    border-bottom: 1px solid #000;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: #3742fa;
+    color: #fff;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background: #2ed573;
+    color: #fff;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background: #ff4754;
+    color: #fff;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4754;
+}
+
+.order-tbl{
+    font-size: 13px;
+}
+
+/*Footer*/
+.footer{
+    background: #ff4757;
+    color: #fff;
+}
+
+
+/*LOGIN*/
+.login-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./IMAGES/Veggie-Shawarma.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form{
+    background: rgba(64, 64, 64, 0.15);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-title{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.input-box{
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    border-radius: 99px;
+    outline: 3px solid transparent;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.input-box input::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.input-box input:focus{
+    outline: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-box input::-ms-reveal{
+    filter: invert(100%);
+}
+
+.input-box i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.remember-forgot-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.remember-forgot-box label{
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.remember-forgot-box input{
+    accent-color: #fff;
+    cursor: pointer;
+}
+
+.remember-forgot-box a{
+    color: #fff;
+}
+
+.remember-forgot-box a:hover{
+    text-decoration: underline;
+    color: navajowhite;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 10px 0;
+    background: #2f9cf4;
+    border: none;
+    border-radius: 99px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    background: #0b87ec;
+}
+
+.register{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.register a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500
+}
+
+.register a:hover{
+    text-decoration: underline;
+    color: navajowhite;
+}

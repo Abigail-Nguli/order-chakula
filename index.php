@@ -1,5 +1,5 @@
 <?php 
-  include('Food-orders/partials-front/menu.php');
+  include('partials-front/menu.php');
 ?>
     <!--Food Search-->
     <section class="food-search text-center">
@@ -48,7 +48,7 @@
                   $image_name = $row['image_name'];
                   ?>
                   <div class="box-3 box-container">
-                    <a href="<?php echo SITEURL; ?>Food-orders/category-foods.php?category_id=<?php echo $id; ?>">
+                    <a href="<?php echo SITEURL; ?>category-foods.php?category_id=<?php echo $id; ?>">
                       <?php 
                         //Is Image Available?
                         if($image_name=="")
@@ -58,7 +58,7 @@
                         else{
                           ?>
                             <img
-                              src="<?php echo SITEURL; ?>Food-orders/IMAGES/Category/<?php echo $image_name; ?>"
+                              src="<?php echo SITEURL; ?>IMAGES/Category/<?php echo $image_name; ?>"
                               alt="Pizza"
                               class="img-responsive img-curve"
                             />
@@ -136,7 +136,7 @@
                             <p class="food-price"><?php echo $price ?></p>
                             <p class="food-detail"><?php echo $description ?></p>
                             <br />
-                            <a href="<?php echo SITEURL; ?>Food-orders/order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
                           </div>
                         </div>
 
@@ -160,7 +160,7 @@
     </section>
 
 <?php
-  include('Food-orders/partials-front/footer.php');
+  include('partials-front/footer.php');
 ?>
 
 <script> 
