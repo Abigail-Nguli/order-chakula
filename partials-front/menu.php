@@ -24,7 +24,7 @@
         <div class="menu">
           <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>">Home</a>
+                        <a href="<?php echo SITEURL; ?>api/index.php">Home</a>
                     </li>
                     <li>
                         <a href="<?php echo SITEURL; ?>categories.php">Categories</a>

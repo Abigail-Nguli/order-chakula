@@ -160,7 +160,7 @@
     </section>
 
 <?php
-  include('partials-front/footer.php');
+  include('../partials-front/footer.php');
 ?>
 
 <script> 
