@@ -62,5 +62,5 @@
     </section>
 
    <?php
-  include('partials-front/footer.php');
+  include __DIR__ .'./partials-front/footer.php';
 ?>
