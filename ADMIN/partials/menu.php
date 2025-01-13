@@ -16,7 +16,7 @@
             <div class="wrapper">
                 <ul>
                     <li>
-                        <a href="index.php">Home</a>
+                        <a href="api/index.php">Home</a>
                     </li>
                     <li>
                         <a href="manage-admin.php">Admin</a>

@@ -1,5 +1,5 @@
 <?php 
-  include('partials-front/menu.php');
+  include('../partials-front/menu.php');
 ?>
     <!--Food Search-->
     <section class="food-search text-center">
