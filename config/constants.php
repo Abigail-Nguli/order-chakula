@@ -4,7 +4,7 @@
     session_start();
     
 
-    define('SITEURL', 'http://localhost/Food-orders/');
+    define('SITEURL', 'http://localhost/Food-orders/api/');
     define('LOCALHOST', 'localhost');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', '');
