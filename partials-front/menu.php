@@ -1,5 +1,5 @@
 <?php
-  include('config/constants.php');
+  include __DIR__. 'config/constants.php';
 ?>
 
 <!DOCTYPE html>

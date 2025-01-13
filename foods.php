@@ -1,5 +1,5 @@
 <?php
-  include('partials-front/menu.php');
+  include __DIR__ .'./partials-front/menu.php';
 ?>
 
     <!--Food Search-->
