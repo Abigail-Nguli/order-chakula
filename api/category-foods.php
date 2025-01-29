@@ -1,5 +1,5 @@
 <?php
-  include __DIR__ .'./partials-front/menu.php';
+  include __DIR__ .'/../partials-front/menu.php';
 ?>
 
     <?php 
@@ -100,5 +100,5 @@
     </section>
 
    <?php
-  include __DIR__ . './partials-front/footer.php';
+  include __DIR__ . '/../partials-front/footer.php';
 ?>

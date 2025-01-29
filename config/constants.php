@@ -4,7 +4,7 @@
     session_start();
     
 
-    define('SITEURL', 'http://localhost/Food-orders/');
+    define('SITEURL', 'http://localhost/order-chakula/');
     define('LOCALHOST', 'localhost');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', '');

@@ -1,12 +1,12 @@
 <?php
-  include __DIR__ .'./partials-front/menu.php';
+  include __DIR__ .'/../partials-front/menu.php';
 ?>
 
     <!--Food Search-->
     <section class="food-search text-center">
         <div class="container">
             
-            <form action="food-search.html" method="POST">
+            <form action="food-search.php" method="POST">
                 <input type="search" name="search" placeholder="Search for Food.." required class="search">
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
             </form>
@@ -67,7 +67,7 @@
                             <p class="food-price"><?php echo $price ?></p>
                             <p class="food-detail"><?php echo $description ?></p>
                             <br />
-                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                            <a href="<?php echo SITEURL; ?>api/order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
                           </div>
                         </div>
 
@@ -85,5 +85,5 @@
     </section>
 
     <?php
-  include __DIR__ . './partials-front/footer.php';
+  include __DIR__ . '/../partials-front/footer.php';
 ?>

@@ -5,5 +5,5 @@
     session_destroy();
 
     //Redirect to Login Page
-    header("location:".SITEURL);
+    header("location:".SITEURL.'api/');
 ?>

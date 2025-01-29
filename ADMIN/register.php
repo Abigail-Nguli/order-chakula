@@ -40,14 +40,6 @@
                     <i class="fa-solid fa-lock"></i>
                     <input type="password" name="password" placeholder="Password" required>
                 </div>
-                
-                <div class="remember-forgot-box">
-                    <label for="remember">
-                        <input type="checkbox" name="checkbox" id="remember">
-                        Remember me
-                    </label>
-
-                </div>
 
                 <input type="submit" name="submit" value="Register" class="login-btn">
 

@@ -5,7 +5,7 @@
     <section class="food-search text-center">
         <div class="container">
             
-            <form action="<?php echo SITEURL; ?>food-search.php" method="POST">
+            <form action="<?php echo SITEURL; ?>api/food-search.php" method="POST">
                 <input type="search" name="search" placeholder="Search for Food.." required class="search">
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
             </form>
@@ -136,7 +136,7 @@
                             <p class="food-price"><?php echo $price ?></p>
                             <p class="food-detail"><?php echo $description ?></p>
                             <br />
-                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                            <a href="<?php echo SITEURL; ?>api/order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
                           </div>
                         </div>
 
@@ -152,7 +152,7 @@
         </div>
         <div class="see-foods">
           <p class="text-center">
-              <a href="<?php echo SITEURL; ?>foods.php">See All Foods</a>
+              <a href="<?php echo SITEURL; ?>api/foods.php">See All Foods</a>
           </p>
         </div>
       </div>
@@ -160,7 +160,7 @@
     </section>
 
 <?php
-  include __DIR__ . '../partials-front/footer.php';
+  include __DIR__ . '/../partials-front/footer.php';
 ?>
 
 <script> 

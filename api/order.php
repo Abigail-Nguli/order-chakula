@@ -1,5 +1,5 @@
 <?php
-  include __DIR__ .'./partials-front/menu.php';
+  include __DIR__ .'/../partials-front/menu.php';
 ?>
 
     <?php 
@@ -146,13 +146,13 @@
                     {
                         //Query executed and order saved
                         $_SESSION['order'] = "<div class='success text-center'>Food Ordered Successfully</div>";
-                        header("location:".SITEURL);
+                        header("location:".SITEURL.'api/index.php');
                     }
                     else
                     {
                         //Failed to save order
                         $_SESSION['order'] = "<div class='error text-center'>Failed to Order Food</div>";
-                        header("location:".SITEURL);
+                        header("location:".SITEURL.'api/order.php');
                     }
                 }
             ?>
@@ -161,5 +161,5 @@
     </section>
 
 <?php
-  include __DIR__ . './partials-front/footer.php';
+  include __DIR__ . '/../partials-front/footer.php';
 ?>

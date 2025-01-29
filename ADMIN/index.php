@@ -19,7 +19,7 @@
         <div class="container">
             <div class="col-4 text-center">
                 <?php 
-                    $sql = "SELECT *FROM tbl_category";
+                    $sql = "SELECT * FROM tbl_category";
 
                     $res = mysqli_query($conn, $sql);
 
@@ -31,7 +31,7 @@
         </div>
         <div class="col-4 text-center">
             <?php 
-                    $sql2 = "SELECT *FROM tbl_food";
+                    $sql2 = "SELECT * FROM tbl_food";
 
                     $res2 = mysqli_query($conn, $sql2);
 
@@ -43,7 +43,7 @@
         </div>
         <div class="col-4 text-center">
              <?php 
-                    $sql3 = "SELECT *FROM tbl_order";
+                    $sql3 = "SELECT * FROM tbl_order";
 
                     $res3 = mysqli_query($conn, $sql3);
 

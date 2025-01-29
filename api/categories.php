@@ -1,5 +1,5 @@
 <?php
-  include __DIR__ .'./partials-front/menu.php';
+  include __DIR__ .'/../partials-front/menu.php';
 ?>
 
     <!-- Categories -->
@@ -27,7 +27,7 @@
                   $image_name = $row['image_name'];
                   ?>
                   <div class="box-3 box-container">
-                    <a href="<?php echo SITEURL; ?>category-foods.php?category_id=<?php echo $id; ?>">
+                    <a href="<?php echo SITEURL; ?>api/category-foods.php?category_id=<?php echo $id; ?>">
                       <?php 
                         //Is Image Available?
                         if($image_name=="")
@@ -62,5 +62,5 @@
     </section>
 
    <?php
-  include __DIR__ .'./partials-front/footer.php';
+  include __DIR__ .'/../partials-front/footer.php';
 ?>
